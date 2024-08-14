@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encritador De Texto</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+
+    <!--encabezado-->
+   <header>
+    <a href="./index.html">
+        <img class="logo" src="/img/logo.svg" alt="Logo Alura">
+    </a>
+   </header> 
+
+   <!--principal-->
+   <main>
+    <section class="encriptador">
+        <textarea class="encriptador-text-area" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="encriptador-aviso">
+            <img class="aviso-img" src="/img/aviso.svg" alt="Avios de informacion">
+            <p class="aviso-mensaje">Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="encritador-botones">
+            <button class="btn-encriptar" type="submit">Encriptar</button>
+            <button class="btn-desencriptar" type="submit">Desencriptar</button>
+        </div>
+    </section>
+
+    <section class="mensaje">
+        <div class="mensaje-contenedor">
+            <img class="mensanje-muñeco" src="/img/muñeco.svg" alt="Muñeco de alura">
+            <p class="texto-uno">Ningún mensaje fue encontrado</p>
+            <p class="texto-dos">Ingresa el texto que desees encriptar o desencriptar.</p>
+        </div>
+        <textarea class="mensaje-text-area" readonly></textarea>
+        <button class="btn-copiar" type="submit">Copiar</button>
+    </section>
+    </main>
+
+        <!--pie de pagina-->
+    <footer>
+        <p class="copyrigth"> &copy; Copyrigth 2024 - Encriptador De Texto - Desarrollado por Mauro Trillos </p>
+        <a href="https://www.linkedin.com/in/mauro-trillos-williams-7b89521b4/" target="_blank" rel="">
+            <img class="linkedin" src="/img/linkedin.svg" alt="Logo de linkendin">
+        </a>
+        <a href="https://github.com/maurotrillos" target="_blank" rel="">
+            <img class="github" src="/img/github.svg" alt="Logo de GitHub">
+        </a>
+    </footer>
+    <script src="/app.js"></script>
+</body>
+</html>
