@@ -87,7 +87,7 @@ main{
     border: 1px solid var(--gray);
     border-radius: 15px;
     resize: none;
-    text-transform: lowercase;
+    /*text-transform: lowercase;*/
 }
 
 .encriptador-text-area::placeholder ,:focus{
